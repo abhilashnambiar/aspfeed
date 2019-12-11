@@ -1,0 +1,64 @@
+body {
+	margin: 0%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/15536.jpg");
+	background-size: auto;
+	color: white;
+	font-family: Segoe UI;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+nav {
+	text-align: right;
+	padding: 1%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+main {
+	text-align: center;
+	margin: 9% 0%;
+}
+
+input[type="button"], input[type="submit"] {
+	color: white;
+	background: 0;
+	border-radius: 9px;
+	padding: 1%;
+	border: 1;
+	margin: 1%;
+	font-family: Segoe UI;
+}
+
+input[type="text"], input[type="password"]{
+	background: 0;
+	border-radius: 9px;
+	border-color: #F00;
+	color: #FFF;
+	padding: 1%;
+	margin: 1%;
+}
+
+::-webkit-input-placeholder {
+  color: #F00;
+  font-family: Segoe UI;
+}
+::-moz-placeholder {
+  color: #F00;
+  font-family: Segoe UI;
+}
+:-ms-input-placeholder {
+  color: #F00;
+  font-family: Segoe UI;
+}
+:-moz-placeholder {
+  color: #F00;
+  font-family: Segoe UI;
+}
