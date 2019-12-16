@@ -3,3 +3,5 @@ A Real Time Message Broadcasting Web Application in which users can register and
 Language: HTML,CSS,PHP
 Database: MySQL - phpMyAdmin
 
+Import the sql file in DB folder to phpmyadmin. Rename the dbconfig to change the database name and password based on the sql file.
+
